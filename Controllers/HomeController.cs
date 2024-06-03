@@ -23,7 +23,8 @@ namespace Project.Controllers
             return View();
         }
 
-        public IActionResult Privacy11111()
+
+        public IActionResult Privacy1111()
         {
             return View();
         }
@@ -31,10 +32,7 @@ namespace Project.Controllers
         {
             return View();
         }
-        public IActionResult Privacy221112()
-        {
-            return View();
-        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
